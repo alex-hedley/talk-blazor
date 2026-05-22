@@ -34,9 +34,9 @@
 					<a href="https://github.com/alex-hedley/BlazorInteractive" target="_blank">
 						<img src="images/Blazor_Logo.png" alt="Blazor (Logo)" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;">
 					</a>
-					<h3>Blazor</h3>
+					<h3>An Intro to Blazor</h3>
 
-					<small><blockquote>Interesting Blazor topics...</blockquote></small>
+					<small><blockquote>Walk through the basics, how it works, how to get started, and a few useful libraries to make life easier.</blockquote></small>
 					
 					<p>
 						<small>Created by <a href="https://alexhedley.com/" target="_blank">Alex Hedley</a></small>
@@ -85,11 +85,96 @@
 
 				<!-- Slide -->
 				<section>
-					<h3>History</h3>
+					<section>
+						<h3>History</h3>
 
-					<p>Initial release: <strong>2018</strong> <em>8 years ago</em></p>
-					<p>"browser" and "razor"</p>
-					<p>In 2023, with .NET 8, Blazor enabled server-side rendered (SSR) pages to allow Interactive "Render modes"</p>
+						<p>Initial release: <strong>2018</strong> (~<em>8 years ago</em>)</p>
+						<p>"browser" and "razor"</p>
+						<!-- <p>In 2023, with .NET 8, Blazor enabled server-side rendered (SSR) pages to allow Interactive "Render modes"</p> -->
+
+						<!-- <aside class="notes">
+							<p></p>
+						</aside> -->
+					</section>
+
+					<!-- Slide -->
+					<section>
+						<h2>2017</h2>
+						<p>Experimental Prototype</p>
+						<p>C# in browser via WebAssembly prototype</p>
+					</section>
+
+					<!-- Slide -->
+					<section>
+						<h2>2018-2019 <small>(.NET Core 3.0)</small></h2>
+						<p>Blazor Server</p>
+						<p>Server-side UI, SignalR updates, fast load</p>
+					</section>
+
+					<!-- Slide -->
+					<section>
+						<h2>2020</h2>
+						<p>Blazor WebAssembly</p>
+						<p>Client-side .NET, offline support</p>
+					</section>
+
+					<!-- Slide -->
+					<section>
+						<h2>2022</h2>
+						<p>Blazor Hybrid</p>
+						<p>Native apps via WebView (MAUI)</p>
+					</section>
+
+					<!-- Slide -->
+					<section>
+						<h2>2023 <small>(.NET 8)</small></h2>
+						<p>Blazor Full-stack UI</p>
+						<p>Combined Server + WASM, render modes</p>
+					</section>
+
+					<!-- Slide -->
+					<section>
+						<h2>2025 <small>(.NET 9)</small></h2>
+						<p>Unified Blazor</p>
+						<p>Single model with static + interactive modes</p>
+					</section>
+
+					<!-- Slide -->
+					<section>
+						<h2>2026 <small>(.NET 10)</small></h2>
+						<p>...</p>
+						<p>...</p>
+					</section>
+
+				</section>
+
+				<!-- Slide -->
+				<section>
+					<h3>Build your first web app with ASP.NET Core using Blazor</h3>
+					<p><a href="https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro" target="_blank">https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro</a></p>
+
+					<!-- <aside class="notes">
+						<p></p>
+					</aside> -->
+				</section>
+
+				<!-- Slide -->
+				<section>
+					<h3>Demo</h3>
+
+					<p><code>dotnet new blazor</code></p>
+					<p><code>dotnet new blazorwasm</code></p>
+
+					<!-- <aside class="notes">
+						<p></p>
+					</aside> -->
+				</section>
+
+				<!-- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- --> 
+
+				<!-- Slide -->
+				<section>
+					<h3>Libraries</h3>
 
 					<!-- <aside class="notes">
 						<p></p>
@@ -113,7 +198,7 @@
 
 					<!-- Slide -->
 					<section>
-						<h3>Dashing</h2>
+						<h3>Dashing</h3>
 						<p>Dashing is a Sinatra based framework that lets you build beautiful dashboards. It looks especially great on TVs.</p>
 						<p>dashing from Shopify: <a href="https://github.com/Shopify/dashing" target="_blank">https://github.com/Shopify/dashing</a></p>
 						<p><img src="images/dashing.smashing.png" alt="Dashing / Smashing Dashboard"></p>
@@ -121,14 +206,14 @@
 
 					<!-- Slide -->
 					<section>
-						<h3>Smashing</h2>
+						<h3>Smashing</h3>
 						<p>Smashing, the spiritual successor to Dashing, is a Sinatra based framework that lets you build excellent dashboards. It looks especially great on TVs.</p>
 						<p><a href="https://github.com/Smashing/smashing" target="_blank">https://github.com/Smashing/smashing</a></p>
 						<p><img src="images/dashing.smashing.png" alt="Dashing / Smashing Dashboard"></p>
 					</section>
 
 					<section>
-						<h3>Blashing - Demo</h2>
+						<h3>Blashing - Demo</h3>
 						<p><a href="https://alexhedley.com/blashing/demo" target="_blank">https://alexhedley.com/blashing/demo</a></p>
 					</section>
 					
@@ -155,7 +240,7 @@
 
 					<!-- Slide -->
 					<section>
-						<h3>Demo</h2>
+						<h3>Demo</h3>
 						<p><img src="images/fluentui-blazor-example.png" alt="Example"/></p>
 						<p><a href="https://www.fluentui-blazor.net" target="_blank">https://www.fluentui-blazor.net</a></p>
 					</section>
@@ -181,7 +266,7 @@
 
 					<!-- Slide -->
 					<section>
-						<h3>Demo</h2>
+						<h3>Demo</h3>
 						<p><a href="https://jsakamoto.github.io/BlazingStory/" target="_blank">https://jsakamoto.github.io/BlazingStory/</a></p>
 					</section>
 				</section>
@@ -191,31 +276,33 @@
 					<!-- Slide -->
 					<section>
 						<h2>Blazored</h2>
-						<p>Blazored is now archived 😢</p>
+						<p>❗️ Blazored is now archived 😢</p>
 
+						<img src="images/Blazored.png" alt="Blazored" />
+						<p><a href="https://github.com/Blazored" target="_blank">https://github.com/Blazored</a></p>
+
+						<!-- <aside class="notes">
+							<p>https://github.com/Blazored</p>
+							<p>https://github.com/AlexHedley/Blazored</p>
+						</aside> -->
+					</section>
+
+					<!-- Slide -->
+					<section>
+						<h3>Demo</h3>
 						<img src="images/Blazored-TextEditor-HTMLExample.png" alt="Blazored Text Editor" />
-						<p><a href="https://github.com/Blazored/TextEditor" target="_blank">https://github.com/Blazored/TextEditor</a></p>
+						
+						<p><a href="https://blazored.github.io/TextEditor/" target="_blank">https://blazored.github.io/TextEditor/</a></p>
 						<p><a href="https://blazored.github.io/TextEditor/" target="_blank">https://blazored.github.io/TextEditor/</a></p>
 						<!-- <p><a href="https://github.com/Blazored/Video" target="_blank">https://github.com/Blazored/Video</a></p> -->
 						<!-- <p><a href="https://blazored.github.io/Video/" target="_blank">https://blazored.github.io/Video/</a></p> -->
-						<p><a href="https://github.com/Blazored" target="_blank">https://github.com/Blazored</a></p>
-
+						
 						<!-- <aside class="notes">
 							<p>https://github.com/Blazored/TextEditor/pull/80</p>
 							<p><a href="https://github.com/Blazored/TextEditor" target="_blank">https://github.com/Blazored/TextEditor</a></p>
 							<p><a href="https://blazored.github.io/TextEditor/" target="_blank">https://blazored.github.io/TextEditor/</a></p>
 							<p><a href="https://github.com/Blazored/Video" target="_blank">https://github.com/Blazored/Video</a></p>
 							<p><a href="https://blazored.github.io/Video/" target="_blank">https://blazored.github.io/Video/</a></p>
-						</aside> -->
-					</section>
-
-					<!-- Slide -->
-					<section>
-						<h3>Demo</h2>
-						<p><a href="https://blazored.github.io/TextEditor/" target="_blank">https://blazored.github.io/TextEditor/</a></p>
-
-						<!-- <aside class="notes">
-							<p>https://github.com/AlexHedley/Blazored</p>
 						</aside> -->
 					</section>
 				</section>
@@ -244,6 +331,8 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@2.0.0/plugin/mermaid/mermaid.js"></script>
+		<!-- <script src="plugin/timeline/reveal-timeline.js"></script> -->
+		 <!-- <script src="plugin/timeline/timeline.js"></script> -->
 		<script>
 			Reveal.initialize({
 				slideNumber: 'c/t',
@@ -254,6 +343,7 @@
 				mermaid: {},
 				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, RevealMermaid ]
 			});
+			// RevealTimeline
 		</script>
 	</body>
 </html>
